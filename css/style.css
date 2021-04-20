@@ -1,0 +1,100 @@
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-items: top;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 80%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+} 
+div {
+    border: solid;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (min-width: 100px) {
+    /* For tablets: */
+
+    /* this will change the container class background to red when tablet*/
+
+    .col {
+        background-color: rgb(183, 198, 206);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: will change the container class to orange*/
+
+    .col {
+        background-color: rgb(146, 176, 185);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: will change the container class to orange*/
+
+    .col {
+        background-color: rgb(250, 231, 210);
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* For desktop: will change the container class to orange*/
+
+    .col {
+        background-color: rgb(245, 214, 239);
+    }
+}
+
+
+
+
+
+
+
+/*
+@media only screen and (max-width: 576px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+*/
+
